@@ -22,7 +22,6 @@ CREATE OR REPLACE GIT REPOSITORY quickstart_common.public.quickstart_repo
 
 CREATE OR REPLACE DATABASE QUICKSTART_{{environment}};
 
-
 -- To monitor data pipeline's completion
 CREATE OR REPLACE NOTIFICATION INTEGRATION email_integration
   TYPE=EMAIL
